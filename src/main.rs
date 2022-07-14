@@ -22,7 +22,6 @@ fn main() {
                 let stripped = maybe_stripped.unwrap_or(line);
 
                 let prefix_to_strip = env::args().nth(1).unwrap();
-                dbg!(&prefix_to_strip);
 
                 println!("{}", desc);
                 println!(
