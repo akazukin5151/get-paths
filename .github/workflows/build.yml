@@ -12,11 +12,11 @@ jobs:
       matrix:
         include:
           - os: ubuntu-latest
-            asset_name: click-me
+            asset_name: get-paths
           - os: macos-latest
-            asset_name: click-me
+            asset_name: get-paths
           - os: windows-latest
-            asset_name: click-me.exe
+            asset_name: get-paths.exe
 
     steps:
     - name: Checkout
